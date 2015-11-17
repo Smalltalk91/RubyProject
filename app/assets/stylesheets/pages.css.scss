@@ -1,0 +1,49 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+div {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  font-family: "Oswald", Arial Black, sans-serif;
+}
+
+.topbar {
+  border-top-left-radius: 5px;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.sidebar {
+  margin-top: -10px;
+  width: 100px;
+  height: 100%;
+  position: absolute;
+}
+
+.button {
+  display: inline-block;
+  background-color: blue;
+  color: black;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  font-size: 120%;
+  font-weight: bold;
+  height: 70%;
+  width: 10%;
+  margin-top: 10px;
+  position: relative;
+  line-height: 200%;
+}
+
+#title {
+  background-color: blue;
+  width: 20%;
+  position: relative;
+  float: left;
+}
